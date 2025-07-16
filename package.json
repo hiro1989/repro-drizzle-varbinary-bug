@@ -1,0 +1,16 @@
+{
+  "name": "repro-drizzle-varbinary-bug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@testcontainers/mysql": "11.2.1",
+    "dotenv": "17.2.0",
+    "drizzle-kit": "0.31.4",
+    "drizzle-orm": "0.44.3",
+    "mysql2": "3.14.2",
+    "vitest": "3.2.4"
+  }
+}
