@@ -569,7 +569,7 @@ This repository is designed to reproduce a bug in the open-source Drizzle ORM pr
 
 ### Reported Issue
 
-- TODO
+- [[BUG]: MySQL VARBINARY/BINARY columns return strings instead of Buffer objects starting from v0.41.0 · Issue #4751 · drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm/issues/4751)
 
 ## Acknowledgments
 
