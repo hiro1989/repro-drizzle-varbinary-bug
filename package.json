@@ -5,19 +5,18 @@
   "type": "module",
   "scripts": {
     "test": "vitest",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "tsc": "npx tsc --noEmit",
+    "db:generate": "drizzle-kit generate"
   },
   "devDependencies": {
     "@testcontainers/mysql": "11.2.1",
     "@types/node": "22.5.4",
+    "drizzle-kit": "0.31.4",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
   },
   "dependencies": {
-    "dotenv": "17.2.0",
-    "drizzle-kit": "0.31.4",
-    "drizzle-orm": "0.44.3",
+    "drizzle-orm": "0.40.1",
     "mysql2": "3.14.2"
   }
 }
